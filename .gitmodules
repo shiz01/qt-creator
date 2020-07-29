@@ -1,11 +1,11 @@
 [submodule "qbs"]
-	path = src/shared/qbs
+	path = qt-creator-4.13.82/src/shared/qbs
 	url = ../../qbs/qbs.git
 	ignore = dirty
 [submodule "perfparser"]
-	path = src/tools/perfparser
+	path = qt-creator-4.13.82/src/tools/perfparser
 	url = ../perfparser.git
 	ignore = dirty
 [submodule "litehtml"]
-	path = src/plugins/help/qlitehtml/litehtml
+	path = qt-creator-4.13.82/src/plugins/help/qlitehtml/litehtml
 	url = https://github.com/litehtml/litehtml.git
