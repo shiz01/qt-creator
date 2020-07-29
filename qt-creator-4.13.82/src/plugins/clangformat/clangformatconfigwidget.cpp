@@ -32,7 +32,9 @@
 #include "ui_clangformatchecks.h"
 #include "ui_clangformatconfigwidget.h"
 
-#include <clang/Format/Format.h>
+#include <clang/Format/FormatIDE.h>
+//#include <clang/Format/Format.h>
+
 
 #include <coreplugin/icore.h>
 #include <cppeditor/cpphighlighter.h>

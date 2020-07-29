@@ -209,8 +209,8 @@ isEmpty(LLVM_VERSION) {
     isEmpty(QTC_CLANG_BUILDMODE_MISMATCH)|!equals(QTC_CLANG_BUILDMODE_MISMATCH, 1) {
         CLANGFORMAT_MAIN_HEADER = $$LLVM_INCLUDEPATH/clang/Format/Format.h
         exists($$CLANGFORMAT_MAIN_HEADER) {
-            CLANGFORMAT_LIBS=-lclangFormat -lclangToolingInclusions -lclangToolingCore -lclangRewrite -lclangLex -lclangBasic
-            ALL_CLANG_LIBS=-lclangFormat -lclangToolingInclusions -lclangTooling -lclangToolingCore \
+            CLANGFORMAT_LIBS=-lclangFormatIDE -lclangToolingInclusions -lclangToolingCore -lclangRewrite -lclangLex -lclangBasic
+            ALL_CLANG_LIBS=-lclangFormatIDE -lclangToolingInclusions -lclangTooling -lclangToolingCore \
                            -lclangRewrite -lclangIndex -lclangFrontend -lclangParse -lclangSerialization \
                            -lclangSema -lclangEdit -lclangAnalysis -lclangDriver -lclangDynamicASTMatchers \
                            -lclangASTMatchers -lclangAST -lclangLex -lclangBasic

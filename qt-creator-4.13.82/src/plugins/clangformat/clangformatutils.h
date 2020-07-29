@@ -28,7 +28,9 @@
 #include <utils/fileutils.h>
 #include <utils/id.h>
 
-#include <clang/Format/Format.h>
+#include <clang/Format/FormatIDE.h>
+//#include <clang/Format/Format.h>
+
 
 #include <QFile>
 

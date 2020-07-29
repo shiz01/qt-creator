@@ -27,7 +27,8 @@
 
 #include <texteditor/indenter.h>
 
-#include <clang/Format/Format.h>
+// #include <clang/Format/Format.h>
+#include <clang/Format/FormatIDE.h>
 
 namespace ClangFormat {
 
